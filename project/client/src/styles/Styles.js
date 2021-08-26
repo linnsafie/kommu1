@@ -17,5 +17,5 @@ export const StyledPara = styled.p`
   font-size: 1.6rem;
   margin: 1rem 0;
   padding: 10rem;
-  line-height: 2;
+  line-height: 3;
 `;
