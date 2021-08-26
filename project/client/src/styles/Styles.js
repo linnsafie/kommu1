@@ -7,6 +7,15 @@ import styled from 'styled-components/macro';
  */
 
 export const Container = styled.section`
-  background-color: pink;
-  justify-content: right;
+  background-color: #80ab82;
+  width: 60%;
+  display: flex;
+  flex-direction: column-reverse;
+`;
+
+export const StyledPara = styled.p`
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  padding: 10rem;
+  line-height: 2;
 `;

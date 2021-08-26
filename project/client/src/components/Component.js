@@ -33,7 +33,6 @@ const Component = ({ myProp }) => {
         <button type="button" onClick={handleEvent}>
           Klikk meg
         </button>
-        <h1>HEIHEI TESTI</h1>
       </Container>
     </>
   );
