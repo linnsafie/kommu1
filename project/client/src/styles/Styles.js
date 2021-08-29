@@ -25,7 +25,7 @@ export const StyledPara = styled.p`
   font-size: 2rem;
   margin: 1rem 0;
   padding: 1rem;
-  line-height: 3;
+  line-height: 2.5;
   font-family: Lado, sans-serif;
 `;
 
@@ -33,7 +33,7 @@ export const StyledArticleIntro = styled.p`
   font-size: 2rem;
   margin: 0;
   padding: 1rem;
-  line-height: 1.6;
+  line-height: 2.5;
   font-weight: bold;
 `;
 
