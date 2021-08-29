@@ -1,44 +1,43 @@
 // import Menu from '../components/Menu';
 import Artikkeltittel from './Artikkeltittel';
-import { Container, StyledPara } from '../styles/Styles';
-// import {
-//   StyledAp,
-//   StyledFigcaption,
-//   StyledArticle,
-//   StyledAutorNDate,
-//   StyledAutorContainer,
-//   StyledArticleImage,
-//   StyledAutorImg,
-//   StyledAutorName,
-//   StyledArticleDate,
-//   StyledArticleIntro,
-//   StyledArticleA,
-//   Header,
-// } from '../styles/Styles';
+import {
+  Container,
+  StyledPara,
+  //   StyledAp,
+  //   StyledFigcaption,
+  //   StyledArticle,
+  //   StyledAutorNDate,
+  //   StyledAutorContainer,
+  StyledArticleImage,
+  //   StyledAutorImg,
+  //   StyledAutorName,
+  //   StyledArticleDate,
+  StyledArticleIntro,
+  //   StyledArticleA,
+  Header,
+} from '../styles/Styles';
+
 // import Footer from '../components/Footer';
 
 const Artikkel2 = () => (
   <>
-    {/* <Menu />
     <Header>
       <figure>
-        <StyledArticleImage
-          src="/assets/death-stranding.jpg"
-          alt="Death Stranding"
-        />
-        <StyledFigcaption>Bilde: Rockstar Games</StyledFigcaption>
+        <StyledArticleImage src="/assets/terning.jpeg" alt="bildetekst" />
       </figure>
-    </Header> */}
+    </Header>
     <Container>
       <Artikkeltittel title="Urmaker som 22-åring." />
-      <StyledPara>
+      <StyledArticleIntro>
         I 2019 fullførte Christer Torp sin bachelorgrad som maskiningeniør ved
         Oslo Met, og i September samme år tok han over livsverket til Urmaker
-        Erik Ødegaard i Karl Johans gate i Sarpsborg. Christer er oppvokst i
-        Høysand i Skjeberg, og forteller at han alltid har hatt en stor
-        interesse for alle slags klokker, både store som små. Nå har han drevet
-        urmaker-virksomheten i nesten to år, og stortrives fortsatt med valg av
-        yrke.
+        Erik Ødegaard i Karl Johans gate i Sarpsborg.
+      </StyledArticleIntro>
+      <StyledPara>
+        Christer er oppvokst i Høysand i Skjeberg, og forteller at han alltid
+        har hatt en stor interesse for alle slags klokker, både store som små.
+        Nå har han drevet urmaker-virksomheten i nesten to år, og stortrives
+        fortsatt med valg av yrke.
       </StyledPara>
       <StyledPara>
         Det hele startet med at Christer tilfeldigvis var innom urmaker-butikken
