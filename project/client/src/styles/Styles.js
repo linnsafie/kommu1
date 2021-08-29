@@ -7,15 +7,17 @@ import styled from 'styled-components/macro';
  */
 
 export const Container = styled.section`
-  background-color: #80ab82;
-  width: 60%;
-  display: flex;
-  flex-direction: column-reverse;
+  background-color: #f2f7f2;
+  width: 100%;
+  display: inline-block;
+  padding: 20%;
+  margin: 0;
 `;
 
 export const StyledPara = styled.p`
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin: 1rem 0;
-  padding: 10rem;
+  padding: 1rem;
   line-height: 3;
+  font-family: Lado;
 `;

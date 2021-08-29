@@ -1,6 +1,5 @@
 // import Artikkel1 from '../components/Artikkel1';
 import Artikkel2 from '../components/Artikkel2';
-import Artikkeltittel from '../components/Artikkeltittel';
 // import Component from '../components/Component';
 
 /**
@@ -9,7 +8,6 @@ import Artikkeltittel from '../components/Artikkeltittel';
 
 const Home = () => (
   <>
-    <Artikkeltittel title="Heidu hallo" />
     <Artikkel2 />
   </>
 );

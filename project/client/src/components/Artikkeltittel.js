@@ -5,6 +5,7 @@ const StyledH1 = styled.h1`
   font-weight: bold;
   margin: 2rem 0 1rem 0;
   color: #00adb5;
+  padding: 1rem 1rem;
 `;
 
 const Artikkeltittel = ({ title }) => <StyledH1>{title}</StyledH1>;

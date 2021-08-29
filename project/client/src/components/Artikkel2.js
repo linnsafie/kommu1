@@ -1,6 +1,6 @@
 // import Menu from '../components/Menu';
 import Artikkeltittel from './Artikkeltittel';
-import { StyledPara } from '../styles/Styles';
+import { Container, StyledPara } from '../styles/Styles';
 // import {
 //   StyledAp,
 //   StyledFigcaption,
@@ -29,37 +29,62 @@ const Artikkel2 = () => (
         <StyledFigcaption>Bilde: Rockstar Games</StyledFigcaption>
       </figure>
     </Header> */}
-
-    <Artikkeltittel>Artikkelen nummer 1</Artikkeltittel>
-
-    <StyledPara>
-      Fowl man heaven bring multiply spirit moving green multiply cattle.
-      Abundantly firmament Shall replenish over. Two, them. First beginning upon
-      gathered evening were, male heaven third tree his together creeping signs
-      doesn't seasons image can't own subdue yielding to seed. Fifth divide land
-      Set earth darkness may sixth Above brought whose unto one gathering lights
-      deep living his void first firmament great fish you're in dry green the
-      thing creeping fowl in face itself lights male yielding, saw seed, greater
-      dry hath. Creature have image life moving replenish creepeth made face
-      behold great us moving make said she'd you may called subdue behold
-      morning form midst creature i shall image good Fruit divided, fish, had.
-      Moveth, beginning seas days said bring. Give herb winged our, great beast
-      night all, were seasons very Life without over stars he. They're divide
-      day May, days which that cattle sixth. Fourth spirit bring, saw sea heaven
-      don't first years earth. Face forth and him earth itself, over. Living,
-      she'd. Them won't which given fruit days in give blessed may you're made
-      over it moving two you'll he signs. Moveth two isn't under deep night a,
-      may very green. Rule after that creature subdue. Multiply there their them
-      called. Also was. Gathering them Days may without there thing lights
-      doesn't The created gathering grass creeping unto green shall thing. May
-      fruit yielding fifth gathering created replenish. First set saying wherein
-      subdue signs bring. Dry isn't earth of and can't had living, him bring set
-      hath midst place can't living likeness fish to image very itself.
-      Replenish a which which had greater isn't you gathered green blessed.
-      Beast beast from meat meat. Behold fifth, which from them very of in two
-      bring, herb a fowl, the creature Blessed place god own life meat a to
-      creepeth.
-    </StyledPara>
+    <Container>
+      <Artikkeltittel title="Urmaker som 22-åring." />
+      <StyledPara>
+        I 2019 fullførte Christer Torp sin bachelorgrad som maskiningeniør ved
+        Oslo Met, og i September samme år tok han over livsverket til Urmaker
+        Erik Ødegaard i Karl Johans gate i Sarpsborg. Christer er oppvokst i
+        Høysand i Skjeberg, og forteller at han alltid har hatt en stor
+        interesse for alle slags klokker, både store som små. Nå har han drevet
+        urmaker-virksomheten i nesten to år, og stortrives fortsatt med valg av
+        yrke.
+      </StyledPara>
+      <StyledPara>
+        Det hele startet med at Christer tilfeldigvis var innom urmaker-butikken
+        for å se til et par klokker han hadde liggende hos Ødegaard. Klokkene
+        hans var ikke klare enda, men da han var for å sjekke kom han over et
+        ark Ødegaard hadde hengt opp i butikken, hvor det sto at de skulle
+        stenge for godt da de ikke hadde noen til å ta over bedriften når
+        Ødegaard skulle pensjonere seg. Christer syntes det var så trist at
+        butikken skulle legges ned, og undret seg over at da vil det ikke være
+        en eneste urmaker i Sarpsborg. Det hele begynte med en fleip om at
+        Christer skulle overta bedriften, og dermed fikk han prøve seg litt i et
+        par uker for å se om dette var noe for han. Han endte opp med å elske,
+        og han forteller at læringskurven var utrolig bratt, og at han syntes
+        det var morsomt å holde på med dette som han følte han mestret.
+      </StyledPara>
+      <StyledPara>
+        Christer pendlet fra Oslo til Sarpsborg en dag i uken og gikk i lære hos
+        Ødegaard slik at han skulle bli godt rustet til å ta over driften. De
+        dagene det var vanskelig å reise hjem til Sarpsborg, gikk han i lære hos
+        en god urmaker-venn av Ødegaard som holdt til i Oslo.
+      </StyledPara>
+      <StyledPara>
+        Christer er utrolig glad for støtten han har fått i Ødegaard og andre
+        urmakermestere. Han forteller at han er veldig takknemlig for all den
+        tiden de har lagt inn og vil fortsette å legge inn for at han skal
+        lykkes.
+      </StyledPara>
+      <StyledPara>
+        Det er relativt få nye og unge urmakere som kommer til, og for Ødegaard
+        handlet det i stor grad også om å videreføre en arv, og sørge for at
+        yrket og lidenskapen ikke dør ut. Dermed var det ekstra stas at det var
+        en ung gutt som ønsket livsverket hans. Christer forteller at han
+        forventet at kundene skulle være skeptiske til at en så ung kar skulle
+        ta over, men han forteller at han ble møtt av utrolig positive og
+        oppmuntrende kunder. Han ser lyst på fremtiden, og forteller at hver
+        arbeidsdag gir en ny utfordring og at han trives godt med det. Han sier
+        at det kanskje er litt uvanlig at en gutt i 20-årene bestemmer seg for å
+        bli urmaker, men at han ikke angrer på valget sitt.
+      </StyledPara>
+      <StyledPara>
+        – Som urmaker vil jeg aldri bli ferdig utlært, da det kommer nye
+        utfordringer og problemstillinger hver eneste dag, og det synes jeg er
+        utrolig gøy og en av grunnene til at jeg valgte å holde på med akkurat
+        dette. Det vil aldri bli kjedelig.
+      </StyledPara>
+    </Container>
   </>
 );
 
