@@ -23,7 +23,7 @@ import {
 const Artikkel2 = () => (
   <>
     <Header>
-      <Artikkeltittel title="Urmaker som 22-åring" />
+      <Artikkeltittel title="Urmaker som 22-åring HELLO" />
       <figure>
         <StyledArticleImageH src="/assets/Torp-7.jpg" alt="bildetekst" />
       </figure>
