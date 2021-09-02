@@ -8,7 +8,7 @@ import styled from 'styled-components/macro';
 
 export const Header = styled.header`
   width: 100%;
-  height: 400px;
+  height: 620px;
   overflow: hidden;
   align-content: center;
 `;
@@ -40,4 +40,16 @@ export const StyledArticleIntro = styled.p`
 export const StyledArticleImage = styled.img`
   width: 100%;
   margin: 0;
+`;
+
+export const StyledArticleImageH = styled.img`
+  width: 100%;
+  margin: 0;
+  opacity: 0.7;
+`;
+
+export const StyledArticle = styled.article`
+  display: flex;
+  flex-direction: column;
+  margin: 0 15% 2% 15%;
 `;

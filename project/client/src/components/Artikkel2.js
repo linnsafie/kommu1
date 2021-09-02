@@ -9,6 +9,7 @@ import {
   //   StyledAutorNDate,
   //   StyledAutorContainer,
   StyledArticleImage,
+  StyledArticleImageH,
   //   StyledAutorImg,
   //   StyledAutorName,
   //   StyledArticleDate,
@@ -22,12 +23,12 @@ import {
 const Artikkel2 = () => (
   <>
     <Header>
+      <Artikkeltittel title="Urmaker som 22-åring" />
       <figure>
-        <StyledArticleImage src="/assets/terning.jpeg" alt="bildetekst" />
+        <StyledArticleImageH src="/assets/Torp-7.jpg" alt="bildetekst" />
       </figure>
     </Header>
     <Container>
-      <Artikkeltittel title="Urmaker som 22-åring." />
       <StyledArticleIntro>
         I 2019 fullførte Christer Torp sin bachelorgrad som maskiningeniør ved
         Oslo Met, og i September samme år tok han over livsverket til Urmaker
@@ -53,6 +54,9 @@ const Artikkel2 = () => (
         og han forteller at læringskurven var utrolig bratt, og at han syntes
         det var morsomt å holde på med dette som han følte han mestret.
       </StyledPara>
+      <figure>
+        <StyledArticleImage src="/assets/Torp-2.jpg" alt="bildetekst" />
+      </figure>
       <StyledPara>
         Christer pendlet fra Oslo til Sarpsborg en dag i uken og gikk i lære hos
         Ødegaard slik at han skulle bli godt rustet til å ta over driften. De
@@ -77,6 +81,9 @@ const Artikkel2 = () => (
         at det kanskje er litt uvanlig at en gutt i 20-årene bestemmer seg for å
         bli urmaker, men at han ikke angrer på valget sitt.
       </StyledPara>
+      <figure>
+        <StyledArticleImage src="/assets/Torp-4.jpg" alt="bildetekst" />
+      </figure>
       <StyledPara>
         – Som urmaker vil jeg aldri bli ferdig utlært, da det kommer nye
         utfordringer og problemstillinger hver eneste dag, og det synes jeg er
